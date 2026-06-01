@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
 
 const events = [
-  { title: "git init", desc: "Initializing my coding journey. The first commit that started a whole new world of logic and creation.", glow: "rgba(59,130,246,0.5)", image: "/src/assets/pic1.jpeg" },
-  { title: "First Stack Update", desc: "Learning new frameworks, solving complex bugs, and building the foundations of my career.", glow: "rgba(168,85,247,0.5)", image: "/src/assets/pic2.jpeg" },
-  { title: "Deploying Success", desc: "My first production release. Seeing my code live for the first time was an unforgettable milestone.", glow: "rgba(234,179,8,0.5)", image: "/src/assets/pic3.jpeg" },
-  { title: "v1.0.0 Stable", desc: "One year of growth, 1000s of commits, and a lifetime of learning ahead. Ready for Year 2!", glow: "rgba(34,197,94,0.5)", image: "/src/assets/pic4.jpeg" },
+  { title: "git init", desc: "Initializing my coding journey. The first commit that started a whole new world of logic and creation.", glow: "rgba(59,130,246,0.5)", image: new URL('../assets/pic1.jpeg', import.meta.url).href },
+  { title: "First Stack Update", desc: "Learning new frameworks, solving complex bugs, and building the foundations of my career.", glow: "rgba(168,85,247,0.5)", image: new URL('../assets/pic2.jpeg', import.meta.url).href },
+  { title: "Deploying Success", desc: "My first production release. Seeing my code live for the first time was an unforgettable milestone.", glow: "rgba(234,179,8,0.5)", image: new URL('../assets/pic3.jpeg', import.meta.url).href },
+  { title: "v1.0.0 Stable", desc: "One year of growth, 1000s of commits, and a lifetime of learning ahead. Ready for Year 2!", glow: "rgba(34,197,94,0.5)", image: new URL('../assets/pic4.jpeg', import.meta.url).href },
 ];
 
 export default function Timeline() {

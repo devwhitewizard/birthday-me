@@ -3,13 +3,13 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
 const memories = [
-  { id: 1, url: '/src/assets/pic1.jpeg', caption: 'Initial commit: Where the passion started 🚀', rotation: -6 },
-  { id: 2, url: '/src/assets/pic2.jpeg', caption: 'Mastering the fundamentals 🌿', rotation: 4 },
-  { id: 3, url: '/src/assets/pic3.jpeg', caption: 'Solving my first complex bug 🛠️', rotation: -3 },
-  { id: 4, url: '/src/assets/pic4.jpeg', caption: 'Learning something new every single day ✨', rotation: 5 },
-  { id: 10, url: '/src/assets/pic10.jpeg', caption: 'Clean code, clear mind 🤝', rotation: 7 },
-  { id: 11, url: '/src/assets/pic11.jpeg', caption: 'Infinite loops of creative logic ♾️', rotation: -8 },
-  { id: 12, url: '/src/assets/pic12.jpeg', caption: 'v1.0.0 released: The best is yet to come ❤️', rotation: 2 },
+  { id: 1, url: new URL('../assets/pic1.jpeg', import.meta.url).href, caption: 'Initial commit: Where the passion started 🚀', rotation: -6 },
+  { id: 2, url: new URL('../assets/pic2.jpeg', import.meta.url).href, caption: 'Mastering the fundamentals 🌿', rotation: 4 },
+  { id: 3, url: new URL('../assets/pic3.jpeg', import.meta.url).href, caption: 'Solving my first complex bug 🛠️', rotation: -3 },
+  { id: 4, url: new URL('../assets/pic4.jpeg', import.meta.url).href, caption: 'Learning something new every single day ✨', rotation: 5 },
+  { id: 10, url: new URL('../assets/pic10.jpeg', import.meta.url).href, caption: 'Clean code, clear mind 🤝', rotation: 7 },
+  { id: 11, url: new URL('../assets/pic11.jpeg', import.meta.url).href, caption: 'Infinite loops of creative logic ♾️', rotation: -8 },
+  { id: 12, url: new URL('../assets/pic12.jpeg', import.meta.url).href, caption: 'v1.0.0 released: The best is yet to come ❤️', rotation: 2 },
 ];
 
 export default function MemoryGallery() {

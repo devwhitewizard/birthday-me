@@ -6,35 +6,35 @@ const snips = [
   { 
     text: "First Line of Code", 
     x: "5%", y: "5%", delay: 0.1, 
-    image: "/src/assets/pic5.jpeg", 
+    image: new URL('../assets/pic5.jpeg', import.meta.url).href, 
     rotate: -4,
     zIndex: 10
   },
   { 
     text: "Debugging Masterclass", 
     x: "55%", y: "15%", delay: 0.3, 
-    image: "/src/assets/pic6.jpeg", 
+    image: new URL('../assets/pic6.jpeg', import.meta.url).href, 
     rotate: 6,
     zIndex: 20
   },
   { 
     text: "Infinite Learn Loop", 
     x: "30%", y: "35%", delay: 0.5, 
-    image: "/src/assets/pic7.jpeg", 
+    image: new URL('../assets/pic7.jpeg', import.meta.url).href, 
     rotate: -2,
     zIndex: 40
   },
   { 
     text: "Productive Focus", 
     x: "10%", y: "55%", delay: 0.7, 
-    image: "/src/assets/pic8.jpeg", 
+    image: new URL('../assets/pic8.jpeg', import.meta.url).href, 
     rotate: 3,
     zIndex: 30
   },
   { 
     text: "System Architect", 
     x: "50%", y: "65%", delay: 0.9, 
-    image: "/src/assets/pic9.jpeg", 
+    image: new URL('../assets/pic9.jpeg', import.meta.url).href, 
     rotate: -5,
     zIndex: 15
   },
